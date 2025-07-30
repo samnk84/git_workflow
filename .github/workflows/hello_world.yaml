@@ -1,11 +1,3 @@
-on: push
-
-jobs:
-  say_hello:
-    runs-on: ubuntu-latest
-    steps:
-      - run : echo 'Hello, World'
-
 on: workflow_dispatch
 
 jobs:
