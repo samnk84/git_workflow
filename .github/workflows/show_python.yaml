@@ -1,0 +1,8 @@
+on : push
+
+jobs:
+  display_python:
+    name : 'display_python'
+    runs-on : ubuntu-latest
+    steps:
+      echo python --version
