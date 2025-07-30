@@ -5,4 +5,4 @@ jobs:
     name : 'display_python'
     runs-on : ubuntu-latest
     steps:
-      echo python --version
+      - run : echo python --version
